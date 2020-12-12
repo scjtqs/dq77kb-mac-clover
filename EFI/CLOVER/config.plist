@@ -68,23 +68,23 @@
 				<key>FixAirport</key>
 				<false/>
 				<key>FixUSB</key>
-				<true/>
+				<false/>
 				<key>AddDTGP</key>
 				<false/>
 				<key>FixShutdown</key>
 				<false/>
 				<key>FixHDA</key>
-				<true/>
+				<false/>
 				<key>FixRTC</key>
 				<false/>
 				<key>FixTMR</key>
 				<false/>
 				<key>FixIntelGfx</key>
-				<true/>
+				<false/>
 				<key>AddHDMI</key>
 				<false/>
 				<key>FixDisplay</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>Name</key>
 			<string>DSDT.aml</string>
@@ -120,7 +120,7 @@
 		<key>Debug</key>
 		<false/>
 		<key>Arguments</key>
-		<string>dart=0 -no_compat_check</string>
+		<string>dart=0</string>
 		<key>XMPDetection</key>
 		<false/>
 		<key>Timeout</key>
@@ -146,7 +146,6 @@
 		<key>Hide</key>
 		<array>
 			<string>BOOTX64.EFI</string>
-			<string>Windows</string>
 		</array>
 		<key>Language</key>
 		<string>zh_CN:0</string>
@@ -167,7 +166,7 @@
 	<key>Devices</key>
 	<dict>
 		<key>HDMIInjection</key>
-		<true/>
+		<false/>
 		<key>Inject</key>
 		<false/>
 		<key>Audio</key>
@@ -325,7 +324,7 @@
 		<key>EnableSafeModeSlide</key>
 		<true/>
 		<key>KernelCache</key>
-		<string>Cacheless</string>
+		<string>Auto</string>
 		<key>SyncRuntimePermissions</key>
 		<true/>
 		<key>AvoidRuntimeDefrag</key>
@@ -333,7 +332,7 @@
 		<key>ProvideConsoleGopEnable</key>
 		<true/>
 		<key>XhciPortLimit</key>
-		<false/>
+		<true/>
 		<key>EnableWriteUnprotector</key>
 		<true/>
 	</dict>
